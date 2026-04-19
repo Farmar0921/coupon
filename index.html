@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>顺丰优惠券 - Money Love Me</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Microsoft YaHei", sans-serif;
+            background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 50%, #fecfef 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .main-box {
+            width: 100%;
+            max-width: 420px;
+            background: #fff;
+            border-radius: 25px;
+            padding: 40px 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+            text-align: center;
+        }
+
+        .logo {
+            font-size: 32px;
+            font-weight: bold;
+            color: #ff4081;
+            margin-bottom: 10px;
+            letter-spacing: 2px;
+        }
+
+        .title {
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        .desc {
+            font-size: 15px;
+            color: #333;
+            line-height: 1.6;
+            margin-bottom: 10px;
+            font-weight: 500;
+        }
+
+        .highlight {
+            color: #ff4081;
+            font-weight: bold;
+        }
+
+        .tip-box {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 15px;
+            margin: 20px 0;
+            font-size: 14px;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .btn {
+            display: block;
+            width: 100%;
+            padding: 18px;
+            border-radius: 50px;
+            font-size: 16px;
+            font-weight: bold;
+            margin: 10px 0;
+            border: none;
+            cursor: pointer;
+            transition: 0.3s;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            color: white;
+        }
+
+        .btn-blue {
+            background: linear-gradient(90deg, #4776E6, #8E78FF);
+        }
+
+        .btn-purple {
+            background: linear-gradient(90deg, #7B68EE, #9370DB);
+        }
+
+        .btn-orange {
+            background: linear-gradient(90deg, #FF7E5F, #FEB47B);
+        }
+
+        .btn-green {
+            background: linear-gradient(90deg, #43cea2, #185a9d);
+        }
+
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+        }
+
+        .bottom-tips {
+            margin-top: 25px;
+            font-size: 12px;
+            color: #999;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+
+<body>
+<div class="main-box">
+    <div class="logo">顺丰优惠券</div>
+    <div class="title">Money Love Me · 优惠福利</div>
+
+    <p class="desc">点击下方蓝色框即可领取↓</p>
+    <p class="desc">依次点击 <span class="highlight">全部领取！</span></p>
+
+    <!-- 顶部提示 -->
+    <div class="tip-box">
+        ✅ 全部领完后在寄件下单或支付运费时抵扣！！<br>
+        ✅ 部分券需使用顺丰APP才能抵扣<br>
+        ✅ 建议用顺丰APP支付运费，已享受最大优惠
+    </div>
+
+    <!-- 小件礼包 -->
+    <button class="btn btn-blue" onclick="window.open('https://mcs-mimp-web.sf-express.com/origin/g/mid-platform/main-active/platformActivity/PrivateLogin?redirectUri=%2Forigin%2Fg%2Fmid-platform%2Fmain-active%2FplatformActivity%2Fhome&acId=E98068BFC91B4C7EBA48B863E079DC84&from=MBHD_020T202604182220537936&activityType=MID_ZDY&source=CX&isFinishActivity=true&employeeId=42553096&stationId=020T')">
+        🎁 小件20kg以下礼包 1
+    </button>
+
+    <button class="btn btn-blue" onclick="window.open('https://mcs-mimp-web.sf-express.com/origin/g/mid-platform/main-active/platformActivity/home?acId=BF6A0431E04C4AD3A23CF16D0C083976&from=MBHD_BASIC20230802113458981&activityType=MID_ZDY&isFinishActivity=true&source=CX&ucmpUrl=https%3A%2F%2Fucmp.sf-express.com%2Fwxaccess%2Fweixin%2Factivity%2Fsfmemzzlj%3Fp1%3D6107%40%40ZXRFUVVDRllzbVFkeWZhbERSSWFJM044WUhuYjRWemROUU1GQmlVYk5PSTAyTzFoeVNDMjhUZ2NCMWljMGxybURsUE9hN1Y2WDFhRC9aSTRNSVUyK1RTWnlGZXE5UC9pVnYrc2xRGdBbVFhajRKbFI3aUV6eTNRY1g0ZCtMY1h0b2xENXRyUDlkVFhMTTNRVHJDQU1nPT0%3D')">
+        🎁 小件20kg以下礼包 2
+    </button>
+
+    <!-- 大件礼包 - 精准配置链接 -->
+    <button class="btn btn-purple" onclick="window.open('https://mcs-mimp-web.sf-express.com/origin/g/mid-platform/main-active/directRecieveCoupon?redirectUri=%2Forigin%2Fg%2Fmid-platform%2Fmain-active%2FactivityCenterEntry&acId=93CC6BE57ACC4F41ADC1EF9B3BDC74A1&empNum=42553096&netCode=020T&from=TGGJ_SFAPP202604182314163721&activityType=MID_ZJLQ&source=CX&isFinishActivity=true')">
+        📦 大件20kg以上礼包 1
+    </button>
+    
+    <button class="btn btn-purple" onclick="window.open('dajian-kuaixiaoke.html')">
+        📦 大件20kg以上礼包 2
+    </button>
+
+    <!-- 国际券 - 绑定指定链接 -->
+    <button class="btn btn-green" onclick="window.open('https://mcs-mimp-web.sf-express.com/origin/g/mid-platform/main-active/directRecieveCoupon?redirectUri=%2Forigin%2Fg%2Fmid-platform%2Fmain-active%2FactivityCenterEntry&mobile=189%2A%2A%2A%2A9058&userId=E45524AB03DB4BAA86507F3EF51C53C5&scene=676&memberType=0&token=node0p3lyfvue4q4u1q4dmvkn8fhok2637325&acId=7C267C5F3FB94921A140BE230D20C38D&empNum=42553096&netCode=020T&from=TGGJ_SFAPP_SFTG_202604190002242307&activityType=MID_ZJLQ&source=CX&isFinishActivity=true')">
+        ✈️ 国际券 1
+    </button>
+    
+    <button class="btn btn-green" onclick="window.open('https://mcs-mimp-web.sf-express.com/origin/g/mid-platform/main-active/nineBlockDraw?redirectUri=%2Forigin%2Fg%2Fmid-platform%2Fmain-active%2FactivityCenterEntry&mobile=189%2A%2A%2A%2A9058&userId=E45524AB03DB4BAA86507F3EF51C53C5&scene=676&memberType=0&token=node0b37k3psiqupf1rqpyry1z5olx2634653&acId=CB2332380D6C4E2BA2F0F4AEAA73E623&empNum=42553096&netCode=020T&from=TGGJ_SFAPP_SFTG_202604190012233087&activityType=MID_JGGCJ&source=CX&isFinishActivity=true')">
+        ✈️ 国际券 2
+    </button>
+
+    <!-- 其他礼包 - 绑定大件冷运礼包链接 -->
+    <button class="btn btn-orange" onclick="window.open('https://mcs-mimp-web.sf-express.com/origin/g/mid-platform/main-active/directRecieveCoupon?redirectUri=%2Forigin%2Fg%2Fmid-platform%2Fmain-active%2FactivityCenterEntry&mobile=185%2A%2A%2A%2A4395&userId=0AFE0494C6714A078E78AE7048B8B3F1&scene=676&memberType=0&token=99F9000B0DB6CB94DD16F0D949206EBD&acId=6DB24CAF90ED445E88ECF309C8EE8D70&from=MBHD_202604190018291698&activityType=MID_ZJLQ&source=CX&isFinishActivity=true&type=6&list_name=%E6%9C%AA%E5%91%BD%E5%90%8D&empNum=42553096&netCode=020T')">
+        ❄️ 大件冷运礼包
+    </button>
+    
+    <!-- 修改：文字改为顺丰同城礼包，绑定tongcheng.html链接 -->
+    <button class="btn btn-orange" onclick="window.open('tongcheng.html')">
+        🏃 顺丰同城礼包
+    </button>
+
+    <!-- 已删除：一大快递3折内部价寄件入口 按钮 -->
+    <!-- 已删除：综合优惠券 按钮 -->
+
+    <div class="bottom-tips">
+        优惠券实时到账 | 官方活动真实有效｜如需其他优惠请私聊
+    </div>
+</div>
+</body>
+</html>
