@@ -110,6 +110,15 @@
             color: #999;
             line-height: 1.5;
         }
+
+        /* 新增：备注文字样式 */
+        .remark {
+            font-size: 13px;
+            color: #ff4081;
+            text-align: center;
+            margin: -5px 0 15px 0;
+            font-weight: 500;
+        }
     </style>
 </head>
 
@@ -128,10 +137,13 @@
         ✅ 建议用顺丰APP支付运费，已享受最大优惠
     </div>
 
-    <!-- 🔥 这里是你要求新增的按钮：5折券领取（顺丰快递APP新人首单） -->
+    <!-- 🔥 5折券领取（顺丰快递APP新人首单） -->
     <button class="btn btn-blue" onclick="window.open('https://mcs-mimp-web.sf-express.com/origin/a/origin-tools/groundPushActivityEntry?path=%2Forigin%2Fa%2Forigin-tools%2FgroundPushActivity%3F%26isFinishActivity%3Dtrue%26source%3DCX%26ucmpUrl%3Dhttps%253A%252F%252Fucmp.sf-express.com%252Fwxaccess%252Fweixin%252Factivity%252Fsfmemzzlj%253Fp1%253D678%2540%2540UUIDD630A0C06C7A4EF8842C96BC35424CA0')">
         🎟️ 5折券领取（顺丰快递APP新人首单）
     </button>
+
+    <!-- ✅ 你要的备注文字 -->
+    <div class="remark">数量有限，如果无法领取可领取下方优惠券</div>
 
     <!-- 小件礼包 -->
     <button class="btn btn-blue" onclick="window.open('https://mcs-mimp-web.sf-express.com/origin/g/mid-platform/main-active/platformActivity/PrivateLogin?redirectUri=%2Forigin%2Fg%2Fmid-platform%2Fmain-active%2FplatformActivity%2Fhome&acId=E98068BFC91B4C7EBA48B863E079DC84&from=MBHD_020T202604182220537936&activityType=MID_ZDY&source=CX&isFinishActivity=true&employeeId=42553096&stationId=020T')">
