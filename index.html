@@ -16,88 +16,59 @@
             background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 50%, #fecfef 100%);
             min-height: 100vh;
             display: flex;
-            justify-content: center;
-            align-items: center;
+            justify-content: center; align-items: center;
             padding: 20px;
         }
 
         .main-box {
-            width: 100%;
-            max-width: 420px;
-            background: #fff;
-            border-radius: 25px;
+            width: 100%; max-width: 420px;
+            background: #fff; border-radius: 25px;
             padding: 40px 30px;
             box-shadow: 0 10px 30px rgba(0,0,0,0.15);
             text-align: center;
         }
 
         .logo {
-            font-size: 32px;
-            font-weight: bold;
+            font-size: 32px; font-weight: bold;
             color: #ff4081;
-            margin-bottom: 10px;
-            letter-spacing: 2px;
+            margin-bottom: 10px; letter-spacing: 2px;
         }
 
         .title {
-            font-size: 16px;
-            color: #666;
+            font-size: 16px; color: #666;
             margin-bottom: 20px;
         }
 
         .desc {
-            font-size: 15px;
-            color: #333;
-            line-height: 1.6;
-            margin-bottom: 10px;
+            font-size: 15px; color: #333;
+            line-height: 1.6; margin-bottom: 10px;
             font-weight: 500;
         }
 
         .highlight {
-            color: #ff4081;
-            font-weight: bold;
+            color: #ff4081; font-weight: bold;
         }
 
         .tip-box {
-            background: #f8f9fa;
-            padding: 15px;
-            border-radius: 15px;
-            margin: 20px 0;
-            font-size: 14px;
-            color: #555;
-            line-height: 1.6;
+            background: #f8f9fa; padding: 15px;
+            border-radius: 15px; margin: 20px 0;
+            font-size: 14px; color: #555; line-height: 1.6;
         }
 
         .btn {
-            display: block;
-            width: 100%;
-            padding: 18px;
-            border-radius: 50px;
-            font-size: 16px;
-            font-weight: bold;
-            margin: 10px 0;
-            border: none;
-            cursor: pointer;
+            display: block; width: 100%;
+            padding: 18px; border-radius: 50px;
+            font-size: 16px; font-weight: bold;
+            margin: 10px 0; border: none; cursor: pointer;
             transition: 0.3s;
             box-shadow: 0 5px 15px rgba(0,0,0,0.1);
             color: white;
         }
 
-        .btn-blue {
-            background: linear-gradient(90deg, #4776E6, #8E78FF);
-        }
-
-        .btn-purple {
-            background: linear-gradient(90deg, #7B68EE, #9370DB);
-        }
-
-        .btn-orange {
-            background: linear-gradient(90deg, #FF7E5F, #FEB47B);
-        }
-
-        .btn-green {
-            background: linear-gradient(90deg, #43cea2, #185a9d);
-        }
+        .btn-blue { background: linear-gradient(90deg, #4776E6, #8E78FF); }
+        .btn-purple { background: linear-gradient(90deg, #7B68EE, #9370DB); }
+        .btn-orange { background: linear-gradient(90deg, #FF7E5F, #FEB47B); }
+        .btn-green { background: linear-gradient(90deg, #43cea2, #185a9d); }
 
         .btn:hover {
             transform: translateY(-3px);
@@ -105,19 +76,14 @@
         }
 
         .bottom-tips {
-            margin-top: 25px;
-            font-size: 12px;
-            color: #999;
-            line-height: 1.5;
+            margin-top: 25px; font-size: 12px;
+            color: #999; line-height: 1.5;
         }
 
-        /* 备注文字样式 */
         .remark {
-            font-size: 13px;
-            color: #ff4081;
+            font-size: 13px; color: #ff4081;
             text-align: center;
-            margin: -5px 0 15px 0;
-            font-weight: 500;
+            margin: -5px 0 15px 0; font-weight: 500;
         }
     </style>
 </head>
@@ -130,27 +96,22 @@
     <p class="desc">点击下方蓝色框即可领取↓</p>
     <p class="desc">依次点击 <span class="highlight">全部领取！</span></p>
 
-    <!-- 顶部提示 -->
     <div class="tip-box">
         ✅ 全部领完后在寄件下单或支付运费时抵扣！！<br>
         ✅ 部分券需使用顺丰APP才能抵扣<br>
         ✅ 建议用顺丰APP支付运费，已享受最大优惠
     </div>
 
-    <!-- 🔥 5折券领取（顺丰快递APP新人首单） -->
     <button class="btn btn-blue" onclick="window.open('https://mcs-mimp-web.sf-express.com/origin/a/origin-tools/groundPushActivityEntry?path=%2Forigin%2Fa%2Forigin-tools%2FgroundPushActivity%3F%26isFinishActivity%3Dtrue%26source%3DCX%26ucmpUrl%3Dhttps%253A%252F%252Fucmp.sf-express.com%252Fwxaccess%252Fweixin%252Factivity%252Fsfmemzzlj%253Fp1%253D678%2540%2540UUIDD630A0C06C7A4EF8842C96BC35424CA0')">
         🎟️ 5折券领取（顺丰快递APP新人首单）
     </button>
 
-    <!-- 备注文字 -->
     <div class="remark">数量有限，如果无法领取可领取下方优惠券</div>
 
-    <!-- 🔥 新增：满18元立减3元寄件通用券 -->
     <button class="btn btn-blue" onclick="window.open('https://mcs-mimp-web.sf-express.com/origin/g/mid-platform/main-active/directRecieveCoupon?acId=C23272A006694661A397B5AB65B0BB97')">
         🧧 满18元立减3元寄件通用券
     </button>
 
-    <!-- 小件礼包 -->
     <button class="btn btn-blue" onclick="window.open('https://mcs-mimp-web.sf-express.com/origin/g/mid-platform/main-active/platformActivity/PrivateLogin?redirectUri=%2Forigin%2Fg%2Fmid-platform%2Fmain-active%2FplatformActivity%2Fhome&acId=E98068BFC91B4C7EBA48B863E079DC84&from=MBHD_020T202604182220537936&activityType=MID_ZDY&source=CX&isFinishActivity=true&employeeId=42553096&stationId=020T')">
         🎁 小件20kg以下礼包 1
     </button>
@@ -159,16 +120,23 @@
         🎁 小件20kg以下礼包 2
     </button>
 
-    <!-- 大件礼包 - 精准配置链接 -->
     <button class="btn btn-purple" onclick="window.open('https://mcs-mimp-web.sf-express.com/origin/g/mid-platform/main-active/directRecieveCoupon?redirectUri=%2Forigin%2Fg%2Fmid-platform%2Fmain-active%2FactivityCenterEntry&acId=93CC6BE57ACC4F41ADC1EF9B3BDC74A1&empNum=42553096&netCode=020T&from=TGGJ_SFAPP202604182314163721&activityType=MID_ZJLQ&source=CX&isFinishActivity=true')">
         📦 大件20kg以上礼包 1
     </button>
     
+    <button class="btn btn-purple" onclick="window.open('https://mcs-mimp-web.sf-express.com/origin/g/mid-platform/main-active/activityCenterEntry?redirectUri=/origin/g/mid-platform/main-active/activityCenterEntry&mobile=135****6370&userId=769BD18D3F724B41B25D0C8DCC75348E&scene=676&memberType=0&token=F5E898F6E56309038C7BEE2FEEFB6A42&acId=7EA34F96EFBE48578AA6ACCF3ACB98C5&from=MBHD_BASIC20260320174100747&activityType=MID_ZJLQ&source=CX&isFinishActivity=true&needLogin=yes')">
+        📦 大件7折优惠券
+    </button>
+
+    <!-- 🔥 新增：大件7折优惠券（周末寄件） -->
+    <button class="btn btn-purple" onclick="window.open('https://mcs-mimp-web.sf-express.com/origin/g/mid-platform/main-active/directRecieveCoupon?redirectUri=/origin/g/mid-platform/main-active/activityCenterEntry&mobile=135****6370&userId=769BD18D3F724B41B25D0C8DCC75348E&scene=676&memberType=0&token=D50A2A6829B3FEABB914F60AE33FCF38&acId=B347ECAD6CEF424684E5370BFA4EA49A&from=MBHD_BASIC20260227115551421&activityType=MID_ZJLQ&source=CX&isFinishActivity=true')">
+        📦 大件7折优惠券（周末寄件）
+    </button>
+
     <button class="btn btn-purple" onclick="window.open('dajian-kuaixiaoke.html')">
         📦 大件20kg以上礼包 2
     </button>
 
-    <!-- 国际券 - 绑定指定链接 -->
     <button class="btn btn-green" onclick="window.open('https://mcs-mimp-web.sf-express.com/origin/g/mid-platform/main-active/directRecieveCoupon?redirectUri=%2Forigin%2Fg%2Fmid-platform%2Fmain-active%2FactivityCenterEntry&mobile=189%2A%2A%2A%2A9058&userId=E45524AB03DB4BAA86507F3EF51C53C5&scene=676&memberType=0&token=node0p3lyfvue4q4u1q4dmvkn8fhok2637325&acId=7C267C5F3FB94921A140BE230D20C38D&empNum=42553096&netCode=020T&from=TGGJ_SFAPP_SFTG_202604190002242307&activityType=MID_ZJLQ&source=CX&isFinishActivity=true')">
         ✈️ 国际券 1
     </button>
@@ -177,12 +145,10 @@
         ✈️ 国际券 2
     </button>
 
-    <!-- 其他礼包 - 绑定大件冷运礼包链接 -->
     <button class="btn btn-orange" onclick="window.open('https://mcs-mimp-web.sf-express.com/origin/g/mid-platform/main-active/directRecieveCoupon?redirectUri=%2Forigin%2Fg%2Fmid-platform%2Fmain-active%2FactivityCenterEntry&mobile=185%2A%2A%2A%2A4395&userId=0AFE0494C6714A078E78AE7048B8B3F1&scene=676&memberType=0&token=99F9000B0DB6CB94DD16F0D949206EBD&acId=6DB24CAF90ED445E88ECF309C8EE8D70&from=MBHD_202604190018291698&activityType=MID_ZJLQ&source=CX&isFinishActivity=true&type=6&list_name=%E6%9C%AA%E5%91%BD%E5%90%8D&empNum=42553096&netCode=020T')">
         ❄️ 大件冷运礼包
     </button>
     
-    <!-- 修改：文字改为顺丰同城礼包，绑定tongcheng.html链接 -->
     <button class="btn btn-orange" onclick="window.open('tongcheng.html')">
         🏃 顺丰同城礼包
     </button>
